@@ -5,15 +5,6 @@ export const siteConfig = {
   description: "GDC Festival of Gaming 2026 - 游戏行业最具影响力的年度盛会",
   url: "https://gdc2026.example.com",
   
-  // Hero Section
-  hero: {
-    badge: "🎮 Festival of Gaming 2026",
-    title: "GDC 2026",
-    subtitle: "游戏开发者大会",
-    date: "2026年3月9日 - 13日 | 美国旧金山",
-    description: "全球游戏行业最具影响力的年度盛会，汇聚顶尖开发者、发行商与创新技术",
-  },
-  
   // Core Stats
   stats: [
     { value: "~30,000", label: "参会者" },
@@ -38,14 +29,12 @@ export const siteConfig = {
       subtitle: "Bonfire Studios 创始人 / 暴雪前首席创意官",
       description: "暴雪黄金时代的缔造者，分享打造长寿游戏的秘诀与团队文化建设",
       day: "3月12日",
-      highlight: true,
+      highlight: false,
     },
   ],
   
   // Awards
   awards: {
-    title: "🏆 奖项中心",
-    subtitle: "GDCA & IGF 2026",
     gdca: {
       gameOfYear: "Clair Obscur: Expedition 33",
       winner: "Sandfall Interactive",
@@ -64,16 +53,10 @@ export const siteConfig = {
     igf: {
       grandPrize: "Titanium Court",
       audienceAward: "ChromaCorp",
-      categories: [
-        { name: "Grand Prize", winner: "Titanium Court" },
-        { name: "Excellence in Design", winner: "Baby Steps" },
-        { name: "Excellence in Narrative", winner: "Baby Steps" },
-        { name: "Excellence in Audio", winner: "BALL X PIT" },
-      ],
     },
   },
   
-  // AI & Tech Trends
+  // Industry Trends
   trends: [
     {
       icon: "Bot",
@@ -119,7 +102,7 @@ export const siteConfig = {
       type: "AI",
     },
     {
-      title: "Donkey Kong Bananza体素技术",
+      title: "Donkey Kong体素技术",
       speaker: "Kenta Motokura",
       company: "Nintendo EPD",
       topic: "体素碰撞与毁灭链设计",
@@ -157,28 +140,18 @@ export const siteConfig = {
   
   // Night Events
   nights: [
-    { name: "Opening Night", place: "Oracle Park", date: "3月9日", icon: "Building2" },
+    { name: "Opening Night", place: "Oracle Park", date: "3月9日", icon: "Music" },
     { name: "Developer's Concert", place: "Moscone Center", date: "3月10日", icon: "Music" },
     { name: "IGF Awards", place: "Moscone Center", date: "3月11日", icon: "Trophy" },
-    { name: "GDCA", place: "Moscone Center", date: "3月12日", icon: "Award" },
+    { name: "GDCA", place: "Moscone Center", date: "3月12日", icon: "Star" },
   ],
   
-  // Luminaries Speakers
+  // Luminaries
   luminaries: [
     { name: "Bryan Catanzaro", title: "VP, Applied Deep Learning", company: "NVIDIA" },
     { name: "Julien Merceron", title: "CTO", company: "Bandai Namco" },
     { name: "Justin Scarpone", title: "EVP & Global Head of Transmedia", company: "SEGA" },
     { name: "Zhen Zhai", title: "Associate Director, Applied Science", company: "Blizzard" },
-  ],
-  
-  // Navigation
-  nav: [
-    { label: "概览", href: "#hero" },
-    { label: "主题演讲", href: "#keynotes" },
-    { label: "奖项", href: "#awards" },
-    { label: "趋势", href: "#trends" },
-    { label: "讲座", href: "#talks" },
-    { label: "活动", href: "#nights" },
   ],
 };
 
