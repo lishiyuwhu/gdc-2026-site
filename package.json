@@ -1,0 +1,29 @@
+{
+  "name": "gdc-2026-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GDC 2026 游戏开发者大会资讯站 - 基于GDC 2026调研项目构建的单页网站",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "framer-motion": "^11",
+    "lucide-react": "^0.400",
+    "next": "^14",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5"
+  }
+}
